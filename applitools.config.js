@@ -6,6 +6,7 @@ module.exports = {
     // Concurrency refers to the number of visual checkpoints Applitools will perform in parallel.
     // Warning: If you have a free account, then concurrency will be limited to 1.
     testConcurrency: 5,
+    serverUrl: "mastercardeyesapi.applitools.com",
 
     // To connect visual test results to your account,
     // you must set the `APPLITOOLS_API_KEY` environment variable to your Applitools API key.
